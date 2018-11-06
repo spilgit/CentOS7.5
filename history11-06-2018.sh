@@ -44,3 +44,15 @@
    44  /etc/rc.d/init.d/webmin start
    45  /etc/rc.d/init.d/webmin status
    46  history
+   47  ifconfig
+   48  yum install bacula
+   49  sudo yum install -y bacula-director bacula-storage bacula-console bacula-client mariadb-server
+   50  yum install firewalld
+   51  systemctl firewalld start
+   52  systemctl firewall start
+   53  find / -name firewall*
+   54  /usr/bin/firewall-cmd
+   55  /usr/bin/firewall-cmd start
+   56  firewall-cmd
+   57  yum install perl-Digest-MD5
+   58  history
