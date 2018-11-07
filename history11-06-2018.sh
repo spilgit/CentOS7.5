@@ -54,5 +54,6 @@
    54  /usr/bin/firewall-cmd
    55  /usr/bin/firewall-cmd start
    56  firewall-cmd
+   # No Perl MD5 hashing module found!
    57  yum install perl-Digest-MD5
    58  history
